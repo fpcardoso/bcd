@@ -1,0 +1,21 @@
+.gitignore não salva arquivos do venv.
+necessário adicionar no menu File>Settings>Project:>Project Interpreter
+opção add, na janela add python interpreter, adicionar um novo virtual env na pasta do projeto.
+
+
+repositorio poo java x python
+https://github.com/std29006/oo-java-e-python
+
+criar banco de dados no Python Console, executar uma vez
+from app import db,Usuario
+db.create_all()
+
+criar usuario na mão
+ 15 >>> from app import db, Usuario
+ 16 >>> juca = Usuario(username='Juca', email='juca@email.com')
+ 17 >>> juca.set_password('147852')
+ 18 >>> db.session.add(juca)
+ 19 >>> db.session.commit()
+ 20 
+ 21 https://gihub.com/bcd29008/python-flask-wtf-bootstrap  --exemplo3
+
